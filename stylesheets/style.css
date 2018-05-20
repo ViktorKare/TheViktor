@@ -1,0 +1,121 @@
+/* line 1, ../sass/style.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 4, ../sass/style.scss */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 8, ../sass/style.scss */
+body {
+  min-height: 100vh;
+  display: block;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Inter UI', sans-serif;
+  text-align: left;
+  font-size: 18px;
+  background: #efefef;
+  overflow: auto;
+  overflow-x: show;
+  padding: 50px 0px; }
+
+/* line 20, ../sass/style.scss */
+h1, h2, h3, p {
+  text-align: left;
+  color: #efefef;
+  margin: 5px 0px 5px 0px;
+  display: block;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px; }
+
+/* line 30, ../sass/style.scss */
+h1 {
+  color: #beafff;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase; }
+
+/* line 38, ../sass/style.scss */
+p {
+  margin: 30px 0px 30px 0px;
+  font-size: 16px; }
+
+@media (max-width: 800px) {
+  /* line 43, ../sass/style.scss */
+  p {
+    font-size: 14px; } }
+/* line 46, ../sass/style.scss */
+a {
+  text-decoration: none;
+  color: inherit; }
+
+/* line 50, ../sass/style.scss */
+a:hover {
+  cursor: hand;
+  cursor: pointer; }
+
+/* line 54, ../sass/style.scss */
+input {
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  padding: 1px;
+  border: none; }
+
+/* line 62, ../sass/style.scss */
+input, textarea, select, button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0px;
+  font-family: inherit;
+  border: none;
+  transition: ease-in-out 0.25s;
+  background-color: #FFFFFF; }
+
+/* line 78, ../sass/style.scss */
+input:focus, textarea:focus, select:focus, button:focus {
+  outline: none; }
+
+/* line 81, ../sass/style.scss */
+button:hover {
+  cursor: hand;
+  cursor: pointer; }
+
+/* line 85, ../sass/style.scss */
+button:hover, input:hover {
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.1); }
+
+/* line 88, ../sass/style.scss */
+button:active, button:focus {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05); }
+
+/* line 91, ../sass/style.scss */
+input:active, input:focus {
+  box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.1); }
+
+/* line 94, ../sass/style.scss */
+.cont {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  text-align: center;
+  padding: 50px 20px;
+  width: calc(100% -100px);
+  height: calc(100vh - 100px);
+  margin: 0px 50px;
+  border-radius: 25px; }
+  /* line 102, ../sass/style.scss */
+  .cont h1, .cont h2 {
+    text-align: inherit; }
